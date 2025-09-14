@@ -1,0 +1,19 @@
+{% load static %}
+
+<div class="card text-center">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Thank you for reading!</h5>
+    <p class="card-text">Hope you enjoyed learning about my journey in learning Django.</p>
+    <a href="{% url 'home' %}" class="btn btn-primary">Home</a>
+  </div>
+  <div class="card-footer text-body-secondary">
+    &copy; 2024 My Django Blog
+    <p>By: David Emery</p>
+  </div>
+</div>
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/header.css' %}">
+{% endblock css %}
