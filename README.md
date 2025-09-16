@@ -17,3 +17,12 @@ To create an app we need to run (python manage.py startapp NAME_OF_THE_APP) reme
 After a creation of an app make sure to create the urls.py file inside of the app (IF AND ONLY IF you are going to create views on it.)
 
 Python manage.py startapp NAME_OF_THE_APP
+
+#important notes for Class 3
+
+## Models
+
+After we finish our models in the mython file, we need to run these commands:
+
+- makemigrations -> Translation from the models.py into the sql part
+- migrate -> it's going to apply the migrations file into the DB
